@@ -1,1 +1,3 @@
-// @include font-face("Muller", "../fonts/MullerRegular", 400, normal);
+@use './mixins/font-face' as font;
+
+@include font.font-face("Gogh", "../fonts/Gogh-Bold", 700, normal);
